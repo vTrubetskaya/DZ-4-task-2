@@ -1,0 +1,104 @@
+*{font-family:calibri;}
+
+header{padding:0px 150px;background:black;color:white;display:flex;justify-content:space-between;font-weight:300;}
+header h1 span{color:indianred;}
+.nav{list-style:none;align-self:center;padding:10px 0px;display:flex;gap:50px;}
+header li{display:inline;}
+header li a{color:silver;text-decoration:none;}
+header li a:hover{font-size:1.2em;}
+
+#axit{padding:100px;background-image:url('https://cdn.discordapp.com/attachments/903377231655608390/910130974359191642/unknown.png');background-size:100% 100%;}
+#axit{display:flex;justify-content:space-between;padding:50px 150px;}
+
+.axit{color:white;display:flex;flex-direction:column;}
+h2{font-size:50pt;}
+h3{font-size:25pt;}
+div h2 span{color:indianred;}
+.axit hr{width:3cm;float:top left;margin:30px 0px;}
+#download{color:white;border:1px solid white;padding:10px 30px;background:none;align-self:flex-start;}
+#download:hover{background-color:silver;}
+
+.form{height:400px;width:350px;margin:50px 0px;overflow:hidden;background:white;border-radius:15px;padding:0px 40px;display:flex;flex-direction:column;justify-content:space-between;}
+#form{font-size:20pt;font-weight:bold;text-align:center;margin-bottom:-20px}
+.form span{color:indianred}
+.label{color:silver;}
+input[type=text], input[type=password]{border: none;border-bottom: 1px solid silver;align-self:center;width:100%;margin:5px 0px;}
+#gs{background:indianred;color:white;padding:20px;margin:0px -40px;border:none;font-size:12pt;}
+#gs:hover{background-color:firebrick;}
+
+
+#social{background:linen;display:flex; justify-content:space-between;padding:0px 150px;}
+#social p{color:grey;}
+#sm{margin:-10px 0px;}
+.social{list-style:none;display:flex;gap:50px;padding:20px 0px;}
+.social li{display:inline;}
+.social img{width:25px; height:25px;opacity:.5;}
+
+#tabs{background:white;padding:50px 150px;display:flex;justify-content:space-around;gap:100px}
+.tabs{display:grid;gap:10px;}
+.tab1{background:black;padding:40px;border-radius:8px;}
+.tab1:hover{background:indianred;}
+.tabs a{text-decoration:none;color:white;}
+
+#tabtext{display:flex;flex-direction:column;justify-content:space-between;}
+#tabtext p{color:grey;text-transform:uppercase;text-align:justify;}
+.tabd{border:none;background:indianred;padding:10px 30px;align-self:flex-start;}
+.tabd a{text-decoration:none;color:white;}
+.tabd:hover{background:firebrick;}
+#tabs img{height:200px;}
+
+#wrapper{background:white;padding:50px 150px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:30px;}
+.wrapper1{grid-column-start: 1;grid-column-end:4;text-align:center;}
+.wrapper1 hr{width:2cm;float:center;background-color:indianred;height:1px;border:none;}
+.wrapper1 p{color:grey;}
+.wrapper{display:flex;flex-direction:column;justify-content:space-between;text-align:center;}
+.wrapper img{height:50px;width:50px;margin-left:auto;margin-right:auto;}
+
+#price{background:gainsboro;color:grey;display:flex; flex-direction:column;padding:50px 100px;}
+.pricehead hr{width:2cm;float:center;background-color:indianred;height:1px;border:none;}
+.pricehead h3{color:black;}
+.pricehead{text-align:center;}
+
+.columns{display:flex;justify-content:space-between;}
+.price{list-style:none;float:left;}
+.price li{border:none;padding:10px 150px;margin:5px auto;background:white;text-align:center;}
+.dark{color:white;}
+.dark1{color:white;}
+.price1{list-style:none;float:left;margin-top:-2px;}
+.price1 li{border:none;padding:10px 150px;margin:5px auto;background:white;text-align:center;}
+
+#reviews{background:white;padding:50px 150px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:30px;}
+.reviews1{grid-column-start: 1;grid-column-end:4;text-align:center;}
+.reviews1 hr{width:2cm;float:center;background-color:indianred;height:1px;border:none;}
+.reviews1 p{color:grey;}
+.reviews{display:grid;grid-template-columns:5fr 1fr 1fr;column-gap:20px;padding:0px 100px;}
+.box1{grid-column-start:1; grid-column-end:4;}
+.box2{grid-column-start:1;grid-row-start:2;grid-row-end:4;}
+.reviews p{text-align:center;}
+.reviews p{background:whitesmoke;color:grey;padding}
+.reviews img{height:50px;width:50px;border:1px solid silver;border-radius:50px;padding:5px;}
+
+#axure{background-image:url('https://cdn.discordapp.com/attachments/903377231655608390/910131148888367134/unknown.png');background-size:cover;padding:25px 150px 50px 150px;}
+#axure{display:flex;flex-direction:column;text-align:center;gap:20px;}
+.axure{color:white;}
+.axure hr{width:2cm;float:center;background-color:white;height:1px;border:none;}
+#axured{color:white;border:1px solid white;padding:10px 30px;background:none;align-self:center;}
+#axured:hover{background-color:silver;}
+
+#contact{background:white;padding:25px 150px;display:flex;flex-direction:column;gap:30px}
+.contact1{text-align:center;}
+.contact1 p{color:silver;}
+.contact1 hr{width:2cm;float:center;background-color:indianred;height:1px;border:none;}
+
+.contact2{display:flex;justify-content:space-between;}
+.contact2 label{color:silver;}
+#message{border:none;border-bottom:1px solid silver;color:silver;}
+#contact3{background:indianred;border:none;color:white;padding:10px 30px;align-self:center;}
+#contact3:hover{background:firebrick;}
+
+footer{background:black;color:silver;padding:10px 150px;display:flex;flex-direction:column;}
+.footer{list-style:none;display:flex;justify-content:center;gap:20px;}
+.footer li{display:inline;}
+footer img{width:30px;}
+.footer img:hover{opacity:.5}
+#footer{align-self:center;}
