@@ -1,0 +1,130 @@
+@media only screen and (max-width : 768px) {
+    body{
+        width: 500px !important;
+    }
+    header{       
+        height: 70px !important;
+        flex-direction: column !important;      
+        justify-content: space-evenly !important;      
+    }
+    h1{              
+        align-self: center;
+        margin: -5px;
+    }
+    .nav{
+        margin:-20px -110px;    
+        gap: 40px !important;
+        font-size: 14pt;        
+    }
+    #axit{        
+        background: grey;    
+        flex-direction: column;           
+    }
+    .axit{
+        margin:-80px -40px 0px -40px;
+        text-align: center;
+    }
+    h3{
+        font-weight: lighter;
+        margin-top: -30px;
+        margin-bottom: -10px;
+        font-size: 18pt;
+    }
+    .axit hr{
+        width: 2cm;            
+        align-self: center;  
+    }
+    #download{
+        align-self: center;
+    }
+    .form{
+        height: 250px;
+        width: 200px;
+        align-self: center;
+        margin-top: 20px;
+        margin-bottom: -20px;     
+        border-radius: 0%;   
+    }
+    #form{
+        font-size: 14pt;
+    }
+    .label{
+        font-size: 10pt;
+    }
+    #social{
+        display: none;
+    }
+    #tabs{
+        
+        gap: 30px;            
+        background: rgb(202, 202, 202);  
+    }
+    .tabs{        
+        grid-template-rows: repeat(3,90px);
+        gap: 2px;
+    }
+    .tab1{
+        border-radius: 0%;
+        font-size: 10pt;
+    }
+    #tabtext h4{
+        margin: 0px -100px 20px 0px;        
+    }
+    #tabtext p{
+        font-size: 10pt;
+        margin: 0px -100px 20px 0px;
+    }
+    #tabs img{
+        display: none;
+    }
+    .wrapper1{
+        font-size: 12pt;
+    }
+    #wrapper hr{
+        margin-top: 20px;
+    }
+    .wrapper{
+        grid-column-start: 1;
+        grid-column-end:4;
+    }
+    #price hr{
+        margin-top: 20px;
+    }
+    .price{
+        display: none;
+    }
+    .price1{
+        margin-left: -70px;        
+    }
+    .price1 li{
+        margin: 2px auto;
+    }
+    #reviews{
+        gap: 10px;
+    }
+    #reviews hr{
+        margin-top: 20px;
+    }
+    .reviews{
+        grid-column-start: 1;
+        grid-column-end:4;
+        margin-left: -80px;
+    }
+    #axure{
+        background: grey;
+        height: 150px;
+        margin-bottom: 50px;
+    }
+    #axure hr{
+        margin-top: 20px;
+    }
+    .axure{
+        margin-top: 20px;
+    }
+    #contact hr{
+        margin-top: 20px;
+    }
+    .contact2{
+        flex-direction: column;
+    }
+    }
