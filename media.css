@@ -1,6 +1,6 @@
 @media only screen and (max-width : 768px) {
     body{
-        width: 500px !important;
+        width: 550px !important;
     }
     header{       
         height: 70px !important;
@@ -12,7 +12,7 @@
         margin: -5px;
     }
     .nav{
-        margin:-20px -110px;    
+        margin:-20px -100px;    
         gap: 40px !important;
         font-size: 14pt;        
     }
@@ -126,5 +126,8 @@
     }
     .contact2{
         flex-direction: column;
+    }
+    textarea{
+        width: 200px;
     }
     }
